@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.account {
+  text-align: center;
+}
+.account #reg-btn,
+.account #sign-btn {
+  width: 80px;
+  border: none;
+  border-radius: 4px;
+  background: #b7b7b7;
+  color: white;
+  padding: 10px;
+  margin-top: 60px;
+}
+.account form {
+  border: 2px solid gray;
+  height: 300px;
+  width: 400px;
+  margin: 30px auto;
+  padding: 40px;
+}
+
+.reg-form__title {
+  padding-bottom: 20px;
+}
+.reg-form__login {
+  padding-bottom: 20px;
+}
+.reg-form__gender {
+  padding-bottom: 20px;
+}
+.reg-form__lang {
+  padding-bottom: 20px;
+}
+.reg-form__mailing {
+  padding-bottom: 20px;
+}
+.reg-form__btn {
+  width: 80px;
+  border: none;
+  border-radius: 4px;
+  background: #b7b7b7;
+  color: white;
+  padding: 10px;
+}
+
+.sign-form__title {
+  padding-bottom: 20px;
+}
+.sign-form__login {
+  padding-bottom: 20px;
+}
+.sign-form__btn {
+  width: 80px;
+  border: none;
+  border-radius: 4px;
+  background: #b7b7b7;
+  color: white;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

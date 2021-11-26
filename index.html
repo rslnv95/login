@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<div class="account">
+    <button id="reg-btn" type="button">Reg</button>
+    <button id="sign-btn" type="button">Sign up</button>
+
+
+    <form class="reg-form" name="reg-form" hidden>
+        <h2 class="reg-form__title">Log in</h2>
+        <div class="reg-form__login">
+            <label>
+                <input name="login" type="text" placeholder="login">
+            </label>
+            <label>
+                <input name="password" type="password" placeholder="password">
+            </label>
+        </div>
+        <div class="reg-form__gender">
+            <label>
+                Мужской
+                <input name="gender" type="radio" value="m">
+            </label>
+            <label>
+                Женский
+                <input name="gender" type="radio" value="w">
+            </label>
+        </div>
+
+        <div class="reg-form__lang">
+           <label>
+               <select name="lang">
+                   <option value="" disabled selected>Выберите язык</option>
+                   <option value="en">EN</option>
+                   <option value="ru">RU</option>
+                   <option value="kg">KG</option>
+               </select>
+           </label>
+        </div>
+
+        <div class="reg-form__mailing">
+            <label>
+                Получать рассылку
+                <input name="mailing" type="checkbox">
+            </label>
+        </div>
+
+        <button class="reg-form__btn" type="submit">Reg</button>
+    </form>
+
+    <form class="sign-form" name="sign-form" hidden>
+        <h2 class="sign-form__title">Sign in</h2>
+        <div class="sign-form__login">
+            <label>
+                <input name="login" type="text" placeholder="login">
+            </label>
+            <label>
+                <input name="password" type="password" placeholder="password">
+            </label>
+        </div>
+        <button class="sign-form__btn" type="submit">Sign in</button>
+    </form>
+
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>

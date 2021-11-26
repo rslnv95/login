@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.account {
+  text-align: center;
+
+  #reg-btn,
+  #sign-btn {
+    width: 80px;
+    border: none;
+    border-radius: 4px;
+    background: #b7b7b7;
+    color: white;
+    padding: 10px;
+      margin-top: 60px;
+  }
+
+  form {
+    border: 2px solid gray;
+    height: 300px;
+    width: 400px;
+    margin: 30px auto;
+    padding: 40px;
+  }
+}
+
+.reg-form {
+  &__title {
+    padding-bottom: 20px;
+  }
+
+  &__login {
+    padding-bottom: 20px;
+  }
+
+  &__gender {
+    padding-bottom: 20px;
+  }
+
+  &__lang {
+    padding-bottom: 20px;
+  }
+
+  &__mailing {
+    padding-bottom: 20px;
+  }
+
+  &__btn {
+    width: 80px;
+    border: none;
+    border-radius: 4px;
+    background: #b7b7b7;
+    color: white;
+    padding: 10px;
+  }
+}
+
+.sign-form {
+  &__title {
+    padding-bottom: 20px;
+  }
+
+  &__login {
+    padding-bottom: 20px;
+  }
+
+  &__btn {
+    width: 80px;
+    border: none;
+    border-radius: 4px;
+    background: #b7b7b7;
+    color: white;
+    padding: 10px;
+  }
+}
